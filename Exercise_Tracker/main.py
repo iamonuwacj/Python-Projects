@@ -50,5 +50,5 @@ for dict_data in data:
         }
     }
     sheety_response = requests.post(url=Sheety_Post_Endpoint, json=Sheety_add_parameters, headers=sheety_header)
-print(sheety_response.status_code)
+print("Activity Logged. ")
 
